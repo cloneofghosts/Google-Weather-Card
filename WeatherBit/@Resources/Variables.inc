@@ -1,7 +1,6 @@
 [Variables]
 
 Color=255,255,255,255
-ColorBlack=0,0,0,255
 Font=Google Sans
 Wind=3.6
 //If using Imperial or m/s change this value to 1
