@@ -5,7 +5,7 @@ Modification of the original <a href="https://www.deviantart.com/starlender/art/
 ## Dark Sky API
 On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2021 and I will leave the skin up for download until the API shuts down.
 
-**If you are not a Dark Sky subscriber (any tier) do not download the skin as signups are disabled**
+**If you are not a Dark Sky subscriber (any tier) do not download the Dark Sky skin as signups are disabled**
 
 ## To use
 After installing edit the Variables in Resources/Variables with the values you wish to use with the skin.
