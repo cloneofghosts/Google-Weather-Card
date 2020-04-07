@@ -101,7 +101,7 @@ end
 function GetDescription(CurrentCondition)
 	local description = "Not Available"
 	CurrentCondition = string.gsub(CurrentCondition, "intensity", "")
-	CurrentCondition = string.gsub(CurrentCondition, "moderate", "")
+	CurrentCondition = string.gsub(CurrentCondition, "moderate rain", "rain")
 	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with light rain", "light thunderstorm")
 	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with rain", "thunderstorm")
 	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with light drizzle", "light drizzle thunderstorm")
