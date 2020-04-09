@@ -15,7 +15,7 @@ end
 function GetIcon(CurrentCode, CurrentIcon)
 	local icon
 	local daytime
-	if string.find(CurrentIcon, "d", 3) then
+	if string.find(CurrentIcon, "d") then
 		daytime = "day"
 	else
 		daytime = "night"
