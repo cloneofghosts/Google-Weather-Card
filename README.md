@@ -2,6 +2,10 @@
 
 Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with WeatherBit, ~~Dark Sky~~ and OpenWeatherMap
 
+This branch contains a basic skin setup that you can modify for your own API source and the others can be found in their own branch and you can check the releases section for the skin download for the provider that you choose.
+
+The WeatherIcons folder contains the most popular weather icons and if you would like to download the whole set you can find them <a href="https://drive.google.com/file/d/1gTLy6Rb-JADRS9ynwk3z9WsYawEGUjA1/view" target="_blank">here</a>
+
 ## Dark Sky API
 On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2021 and I will leave the skin up for download until the API shuts down.
 
