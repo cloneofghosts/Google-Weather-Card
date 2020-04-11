@@ -2,17 +2,20 @@
 
 Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with WeatherBit, ~~Dark Sky~~ and OpenWeatherMap
 
-## Dark Sky API
-On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2021 and I will leave the skin up for download until the API shuts down.
+## WeatherBit Skin
+### To use
+After installing edit the Variables in Resources/Variables with the values you wish to use with the skin by right clicking and click on Edit Weather Variables.
 
-**If you are not a Dark Sky subscriber (any tier) do not download the Dark Sky skin as signups are disabled**
+For the location you have the choice of the following:
 
-## To use
-After installing edit the Variables in Resources/Variables with the values you wish to use with the skin.
+* Latitude/Longitude (Default)
+* City Name
+* Postal code
+* City id
+
+You can see how to change the API call by looking at the <a href="https://www.weatherbit.io/api/weather-current" target="_blank">documentation</a>.
 
 Once the variables are set simply refresh the skin and it will start working automatically.
-
-If using anything other than lat/lon edit the API calls to match what you are using.
 
 The weather icons are courtesy of Erik Buick. I do have the purple night icons so I can add if people want them over the new blue night icons.
 

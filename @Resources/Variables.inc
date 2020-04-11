@@ -1,6 +1,7 @@
 [Variables]
 
 Color=255,255,255,255
+ColorBlack=0,0,0,255
 Font=Google Sans
 Wind=3.6
 //If using Imperial or m/s change this value to 1
@@ -17,4 +18,4 @@ city=CITY
 postal=POSTAL
 city_id=CITY_ID
 //Change above values to the ones for your location. Only 1 of lat&lon/city/postal/city_id needs to be filled out
-api=API_KEY
+api=API
