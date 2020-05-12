@@ -1,6 +1,6 @@
 # Google Weather Card
 
-Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with WeatherBit, ~~Dark Sky~~ and OpenWeatherMap
+Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with ~~WeatherBit~~, ~~Dark Sky~~ and OpenWeatherMap
 
 This branch contains a basic skin setup that you can modify for your own API source and the others can be found in their own branch and you can check the releases section for the skin download for the provider that you choose.
 
