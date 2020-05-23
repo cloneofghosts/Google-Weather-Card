@@ -1,23 +1,22 @@
 # Google Weather Card
 
-Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with ~~WeatherBit~~, ~~Dark Sky~~ and OpenWeatherMap
+Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with ~~<a href="https://weatherbit.io/" target="_blank">WeatherBit</a>~~, ~~<a href="https://darksky.net/" target="_blank">Dark Sky</a>~~, <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> and <a href="https://metoffice.apiconnect.ibmcloud.com/metoffice/production/" target="_blank">Met Office</a>
 
-This branch contains a basic skin setup that you can modify for your own API source and the others can be found in their own branch and you can check the releases section for the skin download for the provider that you choose.
-
-The WeatherIcons folder contains the most popular weather icons and if you would like to download the whole set you can find them <a href="https://drive.google.com/file/d/1gTLy6Rb-JADRS9ynwk3z9WsYawEGUjA1/view" target="_blank">here</a>
-
-## Dark Sky API
-On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2021 and I will leave the skin up for download until the API shuts down.
-
-**If you are not a Dark Sky subscriber (any tier) do not download the Dark Sky skin as signups are disabled**
-
-## To use
-After installing edit the Variables in Resources/Variables with the values you wish to use with the skin.
+## Met Office Skin
+### To use
+After installing edit the Variables in /@Resources/Variables with the values you wish to use with the skin or right click on skin and click on Edit Weather Variables.
 
 Once the variables are set simply refresh the skin and it will start working automatically.
 
-If using anything other than lat/lon edit the API calls to match what you are using.
+### Change the Language
+
+* Met Office does not contain weather descriptions so a custom mapping was made for each of their significant weather codes.
+- You can right click on the skin and click on Edit Weather Language to edit the current weather or browse to /@Resources/Language
+* To translate create a copy of the file and edit the text into your local language. The recommended naming convention is <language name>.inc and edit the variables section to match the new language name.
+  * Feel free to make a pull request with any additional languages.
+
+#### Sunrise/Sunset data is courtesy of <a href="https://sunrise-sunset.org/api" target="_blank">Sunrise Sunset</a>
 
 The weather icons are courtesy of Erik Buick. I do have the purple night icons so I can add if people want them over the new blue night icons.
 
-**Please don't complain about the API being inaccurate as I don't have any control over the data. Please direct your complaints to** <a href="https://www.weatherbit.io/" target="_blank">**WeatherBit**</a>, ~~<a href="https://darksky.net/" target="_blank">**Dark Sky**</a>~~ or <a href="https://www.weatherbit.io/" target="_blank">**OpenWeatherMap**</a> **if you have any issues.**
+**Please don't complain about the API being inaccurate as I don't have any control over the data.**
