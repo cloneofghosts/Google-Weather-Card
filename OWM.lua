@@ -113,7 +113,7 @@ function GetDescription(CurrentCondition)
 	CurrentCondition = string.gsub(CurrentCondition, "broken clouds", "mostly cloudy")
 	CurrentCondition = string.gsub(CurrentCondition, "overcast clouds", "overcast")
 	CurrentCondition = string.gsub(CurrentCondition, "ragged", "scattered")
-	CurrentCondition = string.gsub(CurrentCondition, "shower rain", "showers")
+	CurrentCondition = string.gsub(CurrentCondition, "shower rain", "rainshowers")
 	CurrentCondition = string.gsub(CurrentCondition, "  ", " ")
 	description = string.gsub(" "..CurrentCondition, "%W%l", string.upper):sub(2)
 	return description
