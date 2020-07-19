@@ -100,21 +100,6 @@ end
 
 function GetDescription(CurrentCondition)
 	local description = "Not Available"
-	CurrentCondition = string.gsub(CurrentCondition, "intensity", "")
-	CurrentCondition = string.gsub(CurrentCondition, "moderate rain", "rain")
-	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with light rain", "light thunderstorm")
-	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with rain", "thunderstorm")
-	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with light drizzle", "light drizzle thunderstorm")
-	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with drizzle", "drizzle thunderstorm")
-	CurrentCondition = string.gsub(CurrentCondition, "thunderstorm with heavy drizzle", "heavy drizzle thunderstorm")
-	CurrentCondition = string.gsub(CurrentCondition, "clear sky", "clear")
-	CurrentCondition = string.gsub(CurrentCondition, "few clouds", "mostly clear")
-	CurrentCondition = string.gsub(CurrentCondition, "scattered clouds", "partly cloudy")
-	CurrentCondition = string.gsub(CurrentCondition, "broken clouds", "mostly cloudy")
-	CurrentCondition = string.gsub(CurrentCondition, "overcast clouds", "overcast")
-	CurrentCondition = string.gsub(CurrentCondition, "ragged", "scattered")
-	CurrentCondition = string.gsub(CurrentCondition, "shower rain", "rainshowers")
-	CurrentCondition = string.gsub(CurrentCondition, "  ", " ")
 	description = string.gsub(" "..CurrentCondition, "%W%l", string.upper):sub(2)
 	return description
 end

@@ -15,3 +15,4 @@ lon=LON
 lat=LAT
 api=API
 lang=en
+Language=English
