@@ -1,5 +1,3 @@
-# Google Weather Card
-
 ## Met Office Skin
 ### To use
 After installing edit the Variables in /@Resources/Variables with the values you wish to use with the skin or right click on skin and click on Edit Weather Variables.
