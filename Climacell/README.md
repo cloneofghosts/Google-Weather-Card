@@ -1,9 +1,4 @@
-## **Dark Sky API**
-On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2021 and I will leave the skin up for download until the API shuts down.
-
-**If you are not a Dark Sky subscriber (any tier) do not download the as signups are disabled**
-
-## Dark Sky Skin
+## Climacell Skin
 ### To use
 
 After installing edit the Variables in Resources/Variables with the values you wish to use with the skin.

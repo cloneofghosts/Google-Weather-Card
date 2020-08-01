@@ -1,6 +1,6 @@
 # Google Weather Card
 
-Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with ~~<a href="https://weatherbit.io/" target="_blank">WeatherBit</a>~~, ~~<a href="https://darksky.net/" target="_blank">Dark Sky</a>~~, <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a> and <a href="https://metoffice.apiconnect.ibmcloud.com/metoffice/production/" target="_blank">Met Office</a>
+Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with ~~<a href="https://weatherbit.io/" target="_blank">WeatherBit</a>~~, ~~<a href="https://darksky.net/" target="_blank">Dark Sky</a>~~, <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>, <a href="https://metoffice.apiconnect.ibmcloud.com/metoffice/production/" target="_blank">Met Office</a>, and <a href="https://www.climacell.co/" target="_blank">Climacell</a>
 
 This branch contains a basic skin setup that you can modify for your own API source and the others can be found in their own branch and you can check the releases section for the skin download for the provider that you choose.
 

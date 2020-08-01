@@ -13,6 +13,6 @@ Once the variables are set simply refresh the skin and it will start working aut
 
 #### Sunrise/Sunset data is courtesy of <a href="https://sunrise-sunset.org/api" target="_blank">Sunrise Sunset</a>
 
-The weather icons are courtesy of Erik Buick. I do have the purple night icons so I can add if people want them over the new blue night icons.
+The weather icons are courtesy of Erik Buick.
 
 **Please don't complain about the API being inaccurate as I don't have any control over the data.**
