@@ -11,4 +11,9 @@ metric=true
 lon=LON
 lat=LAT
 api=API
+lang=en-US
 Language=English
+Rate=3600
+// Update time in seconds
+// 30 minutes is 1800
+// 1 hour is 3600

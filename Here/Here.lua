@@ -87,3 +87,9 @@ function GetIcon(CurrentCode)
 	end
 	return icon
 end
+
+function SplitDescription(desc)
+	for line in desc:gsub("%f[.]%.%f[^.]", "\0"):gmatch"%Z+" do 
+	   return line
+	end
+end
