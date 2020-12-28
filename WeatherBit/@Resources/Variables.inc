@@ -18,6 +18,6 @@ city=CITY
 postal=POSTAL
 city_id=CITY_ID
 //Change above values to the ones for your location. Only 1 of lat&lon/city/postal/city_id needs to be filled out
-api=API_KEY
+api=API
 Language=English
 lang=en
