@@ -11,6 +11,12 @@ units=si
 //Options:
 //metric and imperial
 
+RateCurrent=1800 //every 30 minutes
+RateForecast=10800 //every 3 hours
+// Update time in seconds
+// 30 minutes is 1800
+// 1 hour is 3600
+
 lon=LON
 lat=LAT
 api=API

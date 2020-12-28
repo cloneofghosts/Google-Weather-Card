@@ -52,54 +52,38 @@ function GetIcon(CurrentCode, Sunrise, Sunset)
 	
 	currentLocalTime = os.time(os.date('*t'))
 	
-	if code == 'clear' then
+	if code == '1000' then
 		if currentLocalTime >= RiseStamp and currentLocalTime <= SetStamp then
-			code = 'clear_day'
+			code = '1000d'
 		else
-			code = 'clear_night'
+			code = '1000n'
 		end
-	elseif code == 'mostly_clear' then
+	elseif code == '1100' then
 		if currentLocalTime >= RiseStamp and currentLocalTime <= SetStamp then
-			code = 'mostly_clear_day'
+			code = '1100d'
 		else
-			code = 'mostly_clear_night'
+			code = '1100n'
 		end
-	elseif code == 'partly_cloudy' then
+	elseif code == '1101' then
 		if currentLocalTime >= RiseStamp and currentLocalTime <= SetStamp then
-			code = 'partly_cloudy_day'
+			code = '1101d'
 		else
-			code = 'partly_cloudy_night'
+			code = '1101n'
 		end
-	elseif code == 'mostly_cloudy' then
+	elseif code == '1102' then
 		if currentLocalTime >= RiseStamp and currentLocalTime <= SetStamp then
-			code = 'mostly_cloudy_day'
+			code = '1102d'
 		else
-			code = 'mostly_cloudy_night'
+			code = '1102n'
 		end
-	elseif code == 'freezing_rain_heavy' or code == 'freezing_rain_light' or code == 'freezing_drizzle' then
-			code = 'freezing_rain'
-	elseif code == 'ice_pellets_heavy' or code == 'ice_pellets_light' then
-			code = 'ice_pellets'
+	elseif code == '6201' or code == '6200' or code == '6000' then
+			code = '6001'
+	elseif code == '7101' or code == '7102' then
+			code = '7000'
+	elseif code == '3000' or code == '3002' then
+			code = '3001'
 	end
 	return code
-end
-
-function GetDescription(CurrentCondition)
-	local description = "Not Available"
-	CurrentCondition = string.gsub(CurrentCondition, "900", "Not Available")
-	CurrentCondition = string.gsub(CurrentCondition, "rain_heavy", "Heavy Rain")
-	CurrentCondition = string.gsub(CurrentCondition, "rain_light", "Light Rain")
-	CurrentCondition = string.gsub(CurrentCondition, "freezing_rain_heavy", "Freezing Rain")
-	CurrentCondition = string.gsub(CurrentCondition, "freezing_rain_light", "Freezing Rain")
-	CurrentCondition = string.gsub(CurrentCondition, "ice_pellets_heavy", "Ice Pellets")
-	CurrentCondition = string.gsub(CurrentCondition, "ice_pellets_light", "Ice Pellets")
-	CurrentCondition = string.gsub(CurrentCondition, "snow_heavy", "Heavy Snow")
-	CurrentCondition = string.gsub(CurrentCondition, "snow_light", "Light Snow")
-	CurrentCondition = string.gsub(CurrentCondition, "tstorm", "Thunderstorm")
-	CurrentCondition = string.gsub(CurrentCondition, "fog_light", "Mist")
-	CurrentCondition = string.gsub(CurrentCondition, "_", " ")
-	description = string.gsub(" "..CurrentCondition, "%W%l", string.upper):sub(2)
-	return description
 end
 
 function GetBearing(currBearing)
