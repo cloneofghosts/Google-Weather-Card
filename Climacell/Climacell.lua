@@ -6,7 +6,7 @@ function GetDay(dayTime)
 	day = 0
 	formatPattern = '^(%d%d%d%d)%-(%d%d)%-(%d%d)[Tt](%d%d%.?%d*):(%d%d):(%d%d)()'
 	year, month, day, hour, min = dayTime:match(formatPattern)
-	thenStamp = os.time({year=year, month=month, day=day, hour=hour})
+	thenStamp = os.time({year=year, month=month, day=day, hour=hour, min=min})
 	local zone = os.date('%z')
 	local signum, hours, minutes = zone:match '([+-])(%d%d)(%d%d)'
 	local dt = (tonumber(hours)*3600 + tonumber(signum..minutes)*60)
@@ -31,10 +31,6 @@ function GetTime(currTime)
 end
 
 function GetIcon(CurrentCode, Sunrise, Sunset)
-	local zone = os.date('%z')
-	local signum, hours, minutes = zone:match '([+-])(%d%d)(%d%d)'
-	local dt = (tonumber(hours)*3600 + tonumber(signum..minutes)*60)
-	local offset = "-" and -1 or 1
 	local code = CurrentCode
 	year, month, day, hour, min = 0
 	
@@ -42,13 +38,13 @@ function GetIcon(CurrentCode, Sunrise, Sunset)
 	year, month, day, hour, min = Sunrise:match(formatPattern)
 	
 	RiseStamp = os.time({year=year, month=month, day=day, hour=hour, min=min})
-	RiseStamp = RiseStamp - dt
+	RiseStamp = RiseStamp - 86400
 
 	formatPattern = '^(%d%d%d%d)%-(%d%d)%-(%d%d)[Tt](%d%d%.?%d*):(%d%d):(%d%d)()'
 	year, month, day, hour, min = Sunset:match(formatPattern)
 	
 	SetStamp = os.time({year=year, month=month, day=day, hour=hour, min=min})
-	SetStamp = SetStamp - dt
+	SetStamp = SetStamp - 172800
 	
 	currentLocalTime = os.time(os.date('*t'))
 	
