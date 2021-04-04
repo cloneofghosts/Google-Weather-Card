@@ -10,7 +10,10 @@ WindUnit=km/h
 units=metric
 //Options:
 //metric and imperial
-
+CurrentRate=1800
+// Update time in seconds
+// 30 minutes is 1800
+// 1 hour is 3600
 lon=LON
 lat=LAT
 api=API

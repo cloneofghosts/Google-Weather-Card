@@ -12,8 +12,11 @@ units=auto
 //uk2: same as si, except that nearestStormDistance and visibility are in miles, and windSpeed and windGust in miles per hour
 //us: Imperial units (the default)
 //si: SI units
-
+CurrentRate=1800
+// Update time in seconds
+// 30 minutes is 1800
+// 1 hour is 3600
 lon=LON
 lat=LAT
-api=API_KEY
+api=API
 lang=en
