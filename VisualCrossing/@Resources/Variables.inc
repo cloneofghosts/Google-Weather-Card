@@ -19,7 +19,3 @@ CurrentRate=1800
 // Update time in seconds
 // 30 minutes is 1800
 // 1 hour is 3600
-ForecastRate=10800
-// Update time in seconds
-// 30 minutes is 1800
-// 1 hour is 3600
