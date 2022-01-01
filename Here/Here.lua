@@ -76,7 +76,7 @@ function GetIcon(CurrentCode)
 		icon = 'sleet'
 	elseif CurrentCode == 'snow_changing_to_rain' or CurrentCode == 'rain_changing_to_snow' then
 		icon = 'snow_rain_mix'
-	elseif CurrentCode == 'hazy_sunshine' or CurrentCode == 'haze' or CurrentCode == 'smoke' or CurrentCode == 'low_level_haze' or CurrentCode == 'early_fog_followed_by_sunny_skies' or CurrentCode == 'early_fog' or CurrentCode == 'light_fog' or CurrentCode == 'dense_fog' or CurrentCode == 'night_haze' or CurrentCode == 'night_smoke' or CurrentCode == 'night_low_level_haze' then
+	elseif CurrentCode == 'hazy_sunshine' or CurrentCode == 'haze' or CurrentCode == 'smoke' or CurrentCode == 'low_level_haze' or CurrentCode == 'early_fog_followed_by_sunny_skies' or CurrentCode == 'early_fog' or CurrentCode == 'light_fog' or CurrentCode == 'dense_fog' or CurrentCode == 'night_haze' or CurrentCode == 'night_smoke' or CurrentCode == 'night_low_level_haze' or CurrentCode == 'ice_fog' then
 		icon = 'fog'
 	elseif CurrentCode == 'tropical_storm' then
 		icon = 'hurricane'

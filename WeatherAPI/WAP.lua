@@ -20,7 +20,7 @@ function GetIcon(CurrentCode, IsDay)
 	else
 		daytime = "_n"
 	end
-	if CurrentCode == 1000 or CurrentCode == 1003 or CurrentCode == 1006 or CurrentCode == 1063 or CurrentCode == 1066 or CurrentCode == 1069 or CurrentCode == 1087 or CurrentCode == 1150 or CurrentCode == 1180 or CurrentCode == 1010 or CurrentCode == 1216 or CurrentCode == 1222 then
+	if CurrentCode == 1000 or CurrentCode == 1003 or CurrentCode == 1006 or CurrentCode == 1063 or CurrentCode == 1066 or CurrentCode == 1069 or CurrentCode == 1087 or CurrentCode == 1150 or CurrentCode == 1180 or CurrentCode == 1210 or CurrentCode == 1216 or CurrentCode == 1222 then
 		icon = CurrentCode .. daytime
 	else
 		icon = CurrentCode
