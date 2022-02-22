@@ -1,4 +1,4 @@
-## Tomorrow.io Skin
+## Climacell Skin
 ### To use
 
 After installing edit the Variables in Resources/Variables with the values you wish to use with the skin.
