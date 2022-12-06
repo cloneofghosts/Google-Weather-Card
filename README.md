@@ -7,7 +7,7 @@ This branch contains a basic skin setup that you can modify for your own API sou
 The WeatherIcons folder contains the most popular weather icons and if you would like to download the whole set you can find them <a href="https://drive.google.com/file/d/1gTLy6Rb-JADRS9ynwk3z9WsYawEGUjA1/view" target="_blank">here</a>
 
 ## Dark Sky API
-On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2021 and I will leave the skin up for download until the API shuts down.
+On March 31st Dark Sky announced move to Apple and the shutdown of their API. If you have an existing key it will still work until 2023 and I will leave the skin up for download until the API shuts down.
 
 **If you are not a Dark Sky subscriber (any tier) do not download the Dark Sky skin as signups are disabled**
 
