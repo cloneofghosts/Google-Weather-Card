@@ -21,7 +21,7 @@ city_id=CITY_ID
 api=API
 Language=English
 lang=en
-CurrentRate=1800
+CurrentRate=3600
 // Update time in seconds
 // 30 minutes is 1800
 // 1 hour is 3600
