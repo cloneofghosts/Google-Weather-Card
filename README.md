@@ -6,9 +6,6 @@ This branch contains a basic skin setup that you can modify for your own API sou
 
 The WeatherIcons folder contains the most popular weather icons and if you would like to download the whole set you can find them <a href="https://drive.google.com/file/d/1gTLy6Rb-JADRS9ynwk3z9WsYawEGUjA1/view" target="_blank">here</a>
 
-## Dark Sky API
-The skin is still available for download in the releases section but the code has been removed and no support will be offered since the API shuts down Mar 31, 2023.
-
 ## To use
 After installing edit the Variables in Resources/Variables with the values you wish to use with the skin.
 
