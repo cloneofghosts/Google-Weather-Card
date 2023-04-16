@@ -1,0 +1,35 @@
+name: Automatically Close & Lock Inactive Issues and PRs
+
+on:
+  schedule:
+  - cron: "0 0 * * *"
+
+jobs:
+  stale:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/stale@v8
+      with:
+        exempt-issue-assignees: 'cloneofghosts'
+        exempt-pr-assignees: 'cloneofghosts'
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        stale-issue-message: 'This issue has been marked as stale since it has had no activity for the last 90 days. To prevent it from being closed please comment within the next 7 days.'
+        stale-pr-message: 'This pull request has been marked as stale since it has had no activity for the last 90 days. To prevent it from being closed please comment within the next 7 days.'
+        close-issue-message: 'This issue was closed because it has been stalled for 7 days with no activity.'
+        close-pr-message: 'This pull request was closed because it has been stalled for 7 days with no activity.'
+        stale-issue-label: 'stale'
+        stale-pr-label: 'stale'
+        days-before-stale: 90
+        days-before-close: 7
+        enable-statistics: 'true'
+  lock:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: dessant/lock-threads@v4
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-inactive-days: '120'
+          pr-inactive-days: '120'
+          issue-lock-reason: ''
