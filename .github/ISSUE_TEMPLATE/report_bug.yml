@@ -1,6 +1,6 @@
 name: Bug Report
 description: Create a report to help us improve
-labels: ["bug" , "Needs Review]
+labels: ["bug" , "Needs Review"]
 body:
 
   - type: textarea

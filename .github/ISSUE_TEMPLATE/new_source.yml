@@ -1,6 +1,6 @@
 name: New Source
 description: Suggest a new weather source to use in a weather card.
-labels: ["enhancement", "New Source" , "Needs Review]
+labels: ["enhancement", "New Source" , "Needs Review"]
 body:
 
   - type: input
