@@ -51,7 +51,7 @@ body:
     id: card-version
     attributes:
       label: Weather Provider Card Version
-      description: This can be found by editing the weather card and is under MetaData > Version:
+      description: This can be found by editing the weather card and is under MetaData > Version
       placeholder: |
         Example: "v1.2"
     validations:
