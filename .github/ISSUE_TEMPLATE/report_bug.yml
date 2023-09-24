@@ -1,0 +1,80 @@
+name: Bug Report
+description: Create a report to help us improve
+labels: ["bug" , "Needs Review]
+body:
+
+  - type: textarea
+    id: describe-the-bug
+    attributes:
+      label: Describe the bug
+      description: A clear and concise description of what the bug is.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected-behavior
+    attributes:
+      label: Expected behavior
+      description: A clear and concise description of what you expected to happen.
+    validations:
+      required: true
+
+  - type: textarea
+    id: actual-behavior
+    attributes:
+      label: Actual behavior
+      description: Explain what actually happens.
+      placeholder: |
+        Example:
+          "This happened instead..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: weather-provider
+    attributes:
+      label: Weather Provider
+      options: 
+        - WeatherBit
+        - OpenWeatherMap
+        - Met Office
+        - Tomorrow.io
+        - Here
+        - Visual Crossing
+        - WeatherAPI.com
+        - PirateWeather
+      default: 0
+    validations:
+      required: true
+
+  - type: input
+    id: card-version
+    attributes:
+      label: Weather Provider Card Version
+      description: This can be found by editing the weather card and is under [MetaData] Version:
+      placeholder: |
+        Example: "v1.2"
+    validations:
+      required: true
+
+  - type: textarea
+    id: other-details
+    attributes:
+      label: Other details
+      placeholder: |
+        Additional details and attachments.
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Troubleshooting steps
+      description: Before reporting an issue follow these troubleshooting steps to see if it solves the issue.
+      options:
+        - label: I have updated the weather card to the latest version.
+          required: true
+        - label: I have searched the repository for a similar issue.
+          required: true
+        - label: I have checked the API to confirm the issue is not an API issue.
+          required: true
+        - label: This issue is not related to any inaccuracies with the chosen API.
+          required: true
