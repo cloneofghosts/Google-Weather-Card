@@ -5,12 +5,11 @@ projects: ["cloneofghosts/1"]
 body:
 
   - type: textarea
-    id: other-details
+    id: describe-enhancement
     attributes:
-      label: Details
-      placeholder: |
-        Describe your enhancement here.
-   validations:
+      label: Describe Enhacement
+      description: Describe your enhancement here.
+    validations:
       required: true
 
   - type: dropdown
