@@ -1,6 +1,7 @@
 name: Enhancement
 description: Suggest an enhancement to an existing weather card.
 labels: ["enhancement", "Needs Review"]
+projects: ["cloneofghosts/1"]
 body:
 
   - type: textarea
