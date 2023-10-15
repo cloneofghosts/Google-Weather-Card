@@ -5,11 +5,11 @@ ColorBlack=0,0,0,255
 Font=Google Sans
 WindUnit=km/h
 //If using Imperial change to mph;
-metric=true
+metric=metric
 //Options:
-//true and false
-lon=LON
-lat=LAT
+//metric or imperial
+loc=LOCATION
+//Format: {lat},{lng}
 api=API
 lang=en-US
 Language=English
