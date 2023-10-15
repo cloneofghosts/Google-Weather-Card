@@ -26,7 +26,6 @@ body:
         - Visual Crossing
         - WeatherAPI.com
         - PirateWeather
-      default: 0
     validations:
       required: true
 
