@@ -1,0 +1,42 @@
+name: New Source
+description: Suggest a new weather source to use in a weather card.
+labels: ["enhancement", "Needs Review"]
+body:
+
+  - type: textarea
+    id: other-details
+    attributes:
+      label: Details
+      placeholder: |
+        Describe your enhancement here.
+   validations:
+      required: true
+
+  - type: dropdown
+    id: weather-provider
+    attributes:
+      label: Weather Provider
+      options: 
+        - WeatherBit
+        - OpenWeatherMap
+        - Met Office
+        - Tomorrow.io
+        - Here
+        - Visual Crossing
+        - WeatherAPI.com
+        - PirateWeather
+      default: 0
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: acknowledgements
+    attributes:
+      label: Achknowledgements
+      options:
+        - label: I have updated the weather card to the latest version.
+          required: true
+        - label: I have searched the repository for a similar issue.
+          required: true
+        - label: I have written a descriptive title.
+          required: true
