@@ -1,4 +1,6 @@
-# Google Weather Card
+# As of January 20, 2024 this repository is now archived
+
+## Google Weather Card
 
 Modification of the original <a href="https://www.deviantart.com/starlender/art/Weather-Card-Rainmeter-Skin-GoogleAssistantStyle-789320003" target="_blank">Google Weather Card</a> to work with <a href="https://weatherbit.io/" target="_blank">WeatherBit</a>, <a href="https://openweathermap.org/" target="_blank">OpenWeatherMap</a>, <a href="https://metoffice.apiconnect.ibmcloud.com/metoffice/production/" target="_blank">Met Office</a>, <a href="https://www.tomorrow.io/" target="_blank">Tomorrow.io</a>, <a href="https://developer.here.com/" target="_blank">Here</a>, <a href="https://www.visualcrossing.com/" target="_blank">Visual Crossing</a>, <a href="https://www.weatherapi.com/" target="_blank">WeatherAPI.com</a> and <a href="https://pirateweather.net/en/latest/" target="_blank">PirateWeather</a>
 
